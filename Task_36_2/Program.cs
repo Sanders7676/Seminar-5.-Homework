@@ -55,5 +55,5 @@ int GetSumOfElementsWithOddIndex(int[] array)
 
 void PrintArray(int[] array)
 {
-    Console.WriteLine($"[{string.Join(" ,", array)}]");
+    Console.WriteLine($"[{string.Join(", ", array)}]");
 }
